@@ -1,0 +1,45 @@
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.ragenv/
+venv/
+env/
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# Build/test artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs/runtime
+*.log
+
+# Terraform local state and cache
+infra/.terraform/
+infra/.terraform.lock.hcl
+infra/terraform.tfstate
+infra/terraform.tfstate.*
+infra/terraform.tfvars
+
+# OS files
+.DS_Store
+Thumbs.db
